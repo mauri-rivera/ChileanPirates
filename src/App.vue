@@ -9,7 +9,7 @@
 <style>
   .fondo{
     display: flex;
-    background-image: url(../public/crucero.jpeg);
+    background-image: url(../public/crucero.webp);
     width: 100vw;
     height: 100vh;
     background-size: cover;
