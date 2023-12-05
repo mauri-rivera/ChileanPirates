@@ -1,18 +1,7 @@
 <script setup>
-
+  import Fondo from './components/Fondo.vue'; 
 </script>
 
 <template>
-  <img class="fondo">
+  <Fondo />
 </template>
-
-<style>
-  .fondo{
-    display: flex;
-    background-image: url(./assets/img/crucero.webp);
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    filter: sepia(50%) grayscale(50%);
-  }
-</style>
