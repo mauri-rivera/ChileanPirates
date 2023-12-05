@@ -6,10 +6,12 @@
   <img class="fondo">
 </template>
 
-<style>
+<style scoped>
   .fondo{
-    display: flex;
-    background-image: url(../assets/img/crucero.webp);
+    background-image: url("../assets/img/crucero.webp");
+    background-position: center; 
+    background-repeat: no-repeat;
+    position: relative;
     width: 100vw;
     height: 100vh;
     background-size: cover;
